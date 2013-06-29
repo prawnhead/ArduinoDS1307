@@ -1,10 +1,6 @@
 /*
-   ===================
-     F I F T H B I T
-     0 0 0 1 0 0 0 0
-   ===================
    DS1307 Realtime Clock library for Arduino
-   by Christian Murphy, 2013-06-26, chris@fifthbit.com
+   by Christian Murphy, 2013-06-26, prawnhead@gmail.com
    For the DS1307 RTC integrated circuit.
    Data Sheet: https://www.sparkfun.com/datasheets/Components/DS1307.pdf
    Written using the BOB-00099 breakout board from Sparkfun Electronics
@@ -18,7 +14,7 @@
      settings currently in use on the RTC hardware. Not essential.
    There is a limitation in the maximum data length that the DS1307 will
      allow when reading/writing data from/to NVRAM. Data reads have been
-     cut into blocks of 16 bytes.
+     cut into blocks of 32 bytes.
 
    Connection Information:
    --------------------------------------------
